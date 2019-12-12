@@ -11,9 +11,7 @@ Separation of harmonic and percussive components from music spectrogram (time-fr
 
 • Temporal localization of percussive sounds (continuity along frequency)
 
-Iterative search for such spectrograms that maximize the anisotropy (continuity
-
-• over time vs. over frequency)
+• Iterative search for such spectrograms that maximize the anisotropy (continuity over time vs. over frequency)
 
 • Together, the two spectrograms (harmonic / percussive) equal the original spectrogram: Hh,i + Ph,i = Wh,i
 
@@ -38,6 +36,3 @@ Started by writing a function to plot spectrogram. Then, audio signal was taken,
 ### Result:
 
 • Two different seperated audio signals harmonic one and percussive one was generated. 
-
-
-
